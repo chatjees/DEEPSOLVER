@@ -9,3 +9,7 @@
 Automatic public trial activation, merchant checkout, paid renewal/revocation and account management remain undeployed. The included licence verification key is a development key; production key management is not complete.
 
 Twelve automated product/licensing checks passed, including expiration, input tampering, device binding, trial repeat issuance, calendar periods, price amounts and raw-body webhook signatures. No Ansys solver was executed for this release. Clean second-machine installation and broader Ansys compatibility remain unverified.
+
+## Online installer packaging
+
+The primary download is DEEPSOLVER-Online-Setup-0.8.exe. It verifies the portable runtime and compiled app payload, installs 57 pinned dependencies from public PyPI into an isolated app runtime, creates the shortcut and starts the app. The installer was tested through extraction, dependency import and the application export self-test. Windows 10/11 x64 with .NET Framework/tar.exe is required. Clean second-machine testing remains pending.

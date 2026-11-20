@@ -6,8 +6,9 @@ Independent Windows software for prompt-assisted Ansys MAPDL automation through 
 
 ## Download
 
-Get the engineering preview from [GitHub Releases](https://github.com/chatjees/DEEPSOLVER/releases).
-Extract the complete ZIP before installation. Keep the application folder and its `_internal` directory together.
+Download [DEEPSOLVER-Online-Setup-0.8.exe](https://github.com/chatjees/DEEPSOLVER/releases/download/v0.8.0-preview/DEEPSOLVER-Online-Setup-0.8.exe). The installer prepares a private Python runtime and installs pinned dependencies automatically. Internet is needed during installation; no system Python or ChatGPT account is required. See [all release assets](https://github.com/chatjees/DEEPSOLVER/releases).
+
+Legacy offline fragments are not required by the online installer.
 
 ## Current preview
 
